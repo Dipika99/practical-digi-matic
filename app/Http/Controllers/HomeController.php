@@ -23,7 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        dump('updated in master');
+        dump('updated in master again');
         return view('home');
     }
 }
