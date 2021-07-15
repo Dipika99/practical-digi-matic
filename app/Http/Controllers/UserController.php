@@ -37,6 +37,7 @@ class UserController extends Controller
      */
     public function create()
     {
+        dump('changed something');
         $roles = Role::all();
         $admin_role = Role::where('slug','admin')->first();
 
